@@ -7,7 +7,7 @@
   "exports": {
     ".": {
       "types": "./dist/sortkey.d.ts",
-      "default": "./dist/sorkey.js"
+      "default": "./dist/sortkey.js"
     },
     "./chrono": {
       "types": "./dist/chrono.d.ts",
