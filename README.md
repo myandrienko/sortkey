@@ -18,15 +18,15 @@ Sortkeys have several nice features:
 ## Installation
 
 ```ts
-npm install sortkey
-pnpm add sortkey
-yarn add sortkey
+npm install @myandrienko/sortkey
+pnpm add @myandrienko/sortkey
+yarn add @myandrienko/sortkey
 ```
 
 Sortkey is distributed as ESM:
 
 ```ts
-import { sortkey } from "sortkey";
+import { sortkey } from "@myandrienko/sortkey";
 ```
 
 ## Sortkey API
@@ -85,7 +85,7 @@ To avoid this, you can use a special version of sortkey that is optimized for
 intrinsic chronological order and appending, called _chronokey:_
 
 ```ts
-import { chronokey } from "sortkey/chrono";
+import { chronokey } from "@myandrienko/sortkey/chrono";
 ```
 
 Chronokey is prefixed with an 8-character sequence that encodes a timestamp with

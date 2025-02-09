@@ -1,6 +1,6 @@
 {
   "name": "@myandrienko/sortkey",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates compact string keys to store a user-defined order of items in lists",
   "author": "Matvei Andrienko",
   "repository": "myandrienko/sortkey",
