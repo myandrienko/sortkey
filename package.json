@@ -1,6 +1,6 @@
 {
-  "name": "sortkey",
-  "version": "1.0.0",
+  "name": "@myandrienko/sortkey",
+  "version": "1.0.0-prerelease",
   "description": "Generates compact string keys to store a user-defined order of items in lists",
   "author": "Matvei Andrienko",
   "type": "module",
@@ -14,6 +14,9 @@
       "default": "./dist/chrono.js"
     }
   },
+  "files": [
+    "dist"
+  ],
   "sideEffects": false,
   "scripts": {
     "build": "rm -rf dist && tsc"
