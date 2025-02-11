@@ -247,7 +247,7 @@ using the same 64 characters we use for sortkeys, we use an encoding similar to
 Base64: every three octets of a timestamp are encoded into four base-64
 characters.
 
-In out case, a timestamp is an integer representing the number of milliseconds
+In our case, a timestamp is an integer representing the number of milliseconds
 since the UNIX epoch. All such timestamps fit into 48 bits up to the year 9999,
 so we can safely encode them using eight base-64 characters.
 
@@ -272,7 +272,7 @@ b64    -     O      I      f      i     R      n      K
 
 So, `chronokey(new Date("2025-02-09T17:20:09.941Z"))` starts with -OIfiRnK.
 
-Fun fact: “-” will remain the first character of all timestamps util 2109. May
+Fun fact: “-” will remain the first character of all timestamps until 2109. May
 15, 2109 at 7:35:11.104 UTC is 0-------.
 
 ### Combining Timestamps with Sortkeys
