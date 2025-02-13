@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@myandrienko/sortkey": "workspace:*",
+    "human-id": "^4.1.1",
     "react": "^19.0.0",
     "react-aria-components": "^1.6.0",
     "react-dom": "^19.0.0"

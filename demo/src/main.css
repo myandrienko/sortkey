@@ -1,0 +1,23 @@
+body {
+  font: 16px / 20px monospace;
+}
+
+.list {
+  border: 1px solid black;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item em {
+  float: right;
+}
+
+.item[data-dragging] {
+  opacity: 0.5;
+}
+
+.drop-indicator[data-drop-target] {
+  outline: 1px solid red;
+}
