@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/myandrienko/sortkey/main/logo.png" alt="Sortkey Logo" width="400"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/myandrienko/sortkey/main/assets/logo.png" alt="Sortkey Logo" width="400"></p>
 
 _Sortkey_ generates compact string keys to store a user-defined order of items
 in lists. This is useful if you’re building an app that allows users to manually
